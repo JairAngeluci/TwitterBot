@@ -8,14 +8,14 @@ Levando isso em consideração, o bot do gamakkkkk foi anexado como exemplo por 
 
 ### Pré-requisitos
 
-* ***Developer account* no Twitter **
+* ***Developer account* no Twitter**<br />
 Para utilizar a *Application Programming Interface* (API) do Twitter, é necessário solicitar uma conta de desenvolvedor. Para acessar a página de solicitação, [clique aqui](https://developer.twitter.com/en/apply-for-access).
-* ** Criar uma conta no Twitter para o bot **
+* **Criar uma conta no Twitter para o bot**<br />
 Caso você vá utilizar a API para realizar ações além da leitura de dados, você precisará de uma conta que a aplicação possa utilizar.
-* ** [Tweepy](https://www.tweepy.org/) **
+* **[Tweepy](https://www.tweepy.org/)**<br />
 A biblioteca utilizada, você não precisa começar exatamente do zero porque alguém já fez isso. Você pode ler toda a documentação do Tweepy, [clicando aqui](http://docs.tweepy.org/en/latest/), e, se precisar da ajuda de outras pessoas ou quiser compartilhar algo que fez, pode entrar e conversar no [servidor do Discord sobre Tweepy](https://discord.gg/bJvqnhg).
 O jeito mais fácil de instalar o Tweepy é pelo comando Bash `pip install tweepy`.
-* ** [PythonAnywhere](https://pythonanywhere.com/) **
+* **[PythonAnywhere](https://pythonanywhere.com/)**<br />
 "PythonAnywhere é um ambiente de desenvolvimento integrado (IDE) e serviço de hospedagem web baseado na linguagem de programação Python" ([Wikipédia](https://pt.wikipedia.org/wiki/PythonAnywhere)). Nós utilizaremos o mesmo para hospedar o bot criado, então você deverá criar uma conta neste site.
 
 ### Ganhando acesso a API
@@ -69,10 +69,10 @@ Para isso, você vai acessar a sua conta no [PythonAnywhere](https://www.pythona
 
 ## Dicas
 
-* ** Trabalhe com o ID dos usuários **
+* **Trabalhe com o ID dos usuários**
 	* Os usuários podem mudar seus nomes de usuários, mas o ID é permanente, ou seja, se você basear seu código no nome de um usuário, terá que realizar uma manutenção sempre que o mesmo editar seu cadastro;
 	* Você pode facilmente verificar o ID de um usuário pelo site [TweeterID.](https://tweeterid.com/)
-* ** Procure exemplos **
+* **Procure exemplos**<br />
 Procure outras aplicações que utilizem os mesmos recursos que você e/ou tenham objetivos parecidos, um bom exemplo é sempre uma ótima fonte de informações.
-* ** Entre no servidor do Discord do Tweepy **
+* **Entre no servidor do Discord do Tweepy**<br />
 É provável que alguma já tenha passado pelo mesmo problema que você ou, pelo menos, tenha alguma ideia que possa facilitar sua vida, então é bom ter um lugar onde possa pedir ajuda.
