@@ -64,7 +64,7 @@ Finalmente, o momento mais esperado: fazer funcionar!
 
 Para isso, você vai acessar a sua conta no [PythonAnywhere](https://www.pythonanywhere.com/) e seguir os seguintes passos:
 1. Criar novo comando Bash e rodar o comando `pip install tweepy`;
-2. Criar novo arquivo *py* e colar seu código OU importar os arquivos do mesmo.
+2. Criar novo arquivo *.py* e colar seu código OU importar os arquivos do mesmo.
 3. Clicar em "Run" e admirar sua criação.
 
 ## Dicas
