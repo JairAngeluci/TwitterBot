@@ -30,7 +30,7 @@ Para utilizar o bot, será necessário códigos de acesso a API e ao usuário do
 Você pode ver o passo-a-passo [neste vídeo](https://www.youtube.com/watch?v=LpLYQz_3hA0).
 
 Após ter o código de acesso a aplicação, você deverá coletar o código para acesso ao usuário, você pode conseguir os mesmos com o seguinte trecho de código Python:
-```
+```python
 import tweepy
 consumer_key = input("Your Consumer Key: ")
 consumer_secret = input("Your Consumer Secret: ")
@@ -48,7 +48,7 @@ print(f"acc secret: {auth.access_token_secret}")
 
 ### Criando a aplicação
 Após ter tanto os códigos para acesso a API quanto para acesso ao usuário do bot, você poderá utilizar a seguinte função para autentificação:
-```
+```python
 def authenticate(consumer_key, consumer_secret, access_token, access_token_secret):
     print("Authenticating...")
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
