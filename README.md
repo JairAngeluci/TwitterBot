@@ -19,7 +19,7 @@ Levando isso em consideração, o bot do gamakkkkk foi anexado como exemplo por 
 	* Para ver a documentação do Tweepy, [clique aqui](http://docs.tweepy.org/en/latest/);
 	* Se precisar da ajuda de outras pessoas ou quiser compartilhar algo que fez, pode entrar e conversar no [servidor do Discord do Tweepy](https://discord.gg/bJvqnhg);
 	* O jeito mais fácil de instalar o Tweepy é pelo comando Bash `pip install tweepy`.
-* **[PythonAnywhere](https://pythonanywhere.com/)
+* **[PythonAnywhere](https://pythonanywhere.com/)**
 	* "PythonAnywhere é um ambiente de desenvolvimento integrado (IDE) e serviço de hospedagem web baseado na linguagem de programação Python" ([Wikipédia](https://pt.wikipedia.org/wiki/PythonAnywhere));
 	* Nós utilizaremos o PythonAnywhere para hospedar o bot criado, então você deverá criar uma conta [neste site](https://www.pythonanywhere.com/pricing/);
 	* Para a grande parte das aplicações, o pacote "*Beginner: Free!*" é suficiente para atender a demanda, mas, se necessário, o PythonAnywhere possui planos pagos com mais capacidade de processamento.
