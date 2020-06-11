@@ -56,7 +56,7 @@ def authenticate(consumer_key, consumer_secret, access_token, access_token_secre
     print("...Authenticated!")
     return tweepy.API(auth)
 ```
-Em contrapartida, o restante do código dependerá do seu objetivo com a API do Twitter, então você está por sua conta nessa parte, mas não se esqueça de escrever o `import tweepy` no início do seu código!
+Em contrapartida, o restante do código dependerá do seu objetivo com a API do Twitter, então você está por sua conta nessa parte, mas não se esqueça de escrever o `import tweepy` no início do seu código e de consultar a documentação do Tweepy!
 
 ### Colocando a aplicação para funcionar
 
