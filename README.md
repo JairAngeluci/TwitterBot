@@ -70,7 +70,7 @@ Para isso, você vai acessar a sua conta no [PythonAnywhere](https://www.pythona
 ## Dicas
 
 * **Trabalhe com o ID dos usuários**
-	* Os usuários podem mudar seus nomes de usuários, mas o ID é permanente, ou seja, se você basear seu código no nome de um usuário, terá que realizar uma manutenção sempre que o mesmo editar seu cadastro;
+	* Ao contrário de seus ID's, os usuários podem mudar seus nomes de usuários, ou seja, se você basear seu código no nome de um usuário, terá que realizar uma manutenção sempre que o mesmo editar seu cadastro;
 	* Você pode facilmente verificar o ID de um usuário pelo site [TweeterID.](https://tweeterid.com/)
 * **Procure exemplos**<br />
 Procure outras aplicações que utilizem os mesmos recursos que você e/ou tenham objetivos parecidos, um bom exemplo é sempre uma ótima fonte de informações.
