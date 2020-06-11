@@ -8,15 +8,21 @@ Levando isso em consideração, o bot do gamakkkkk foi anexado como exemplo por 
 
 ### Pré-requisitos
 
-* ***Developer account* no Twitter**<br />
-Para utilizar a *Application Programming Interface* (API) do Twitter, é necessário solicitar uma conta de desenvolvedor. Para acessar a página de solicitação, [clique aqui](https://developer.twitter.com/en/apply-for-access).
-* **Criar uma conta no Twitter para o bot**<br />
-Caso você vá utilizar a API para realizar ações além da leitura de dados, você precisará de uma conta que a aplicação possa utilizar.
-* **[Tweepy](https://www.tweepy.org/)**<br />
-A biblioteca utilizada, você não precisa começar exatamente do zero porque alguém já fez isso. Você pode ler toda a documentação do Tweepy, [clicando aqui](http://docs.tweepy.org/en/latest/), e, se precisar da ajuda de outras pessoas ou quiser compartilhar algo que fez, pode entrar e conversar no [servidor do Discord sobre Tweepy](https://discord.gg/bJvqnhg).
-O jeito mais fácil de instalar o Tweepy é pelo comando Bash `pip install tweepy`.
-* **[PythonAnywhere](https://pythonanywhere.com/)**<br />
-"PythonAnywhere é um ambiente de desenvolvimento integrado (IDE) e serviço de hospedagem web baseado na linguagem de programação Python" ([Wikipédia](https://pt.wikipedia.org/wiki/PythonAnywhere)). Nós utilizaremos o mesmo para hospedar o bot criado, então você deverá criar uma conta neste site.
+* ***Developer account* no Twitter**
+	* Para utilizar a *Application Programming Interface* (API) do Twitter, é necessário solicitar uma conta de desenvolvedor;
+	* Para acessar a página de solicitação, [clique aqui](https://developer.twitter.com/en/apply-for-access).
+* **Criar uma conta no Twitter para o bot**
+	* Caso você vá utilizar a API para realizar ações além da leitura de dados, você precisará de uma conta que a aplicação possa utilizar;
+	* Uma alternativa é utilizar a própria conta, mas, se desrespeitar algum termo de uso do Twiter, poderá perder a sua conta desse jeito.
+* **[Tweepy](https://www.tweepy.org/)**
+	* Você não precisa começar exatamente do zero porque alguém já fez isso, por isso utilizaremos essa biblioteca;
+	* Para ver a documentação do Tweepy, [clique aqui](http://docs.tweepy.org/en/latest/);
+	* Se precisar da ajuda de outras pessoas ou quiser compartilhar algo que fez, pode entrar e conversar no [servidor do Discord do Tweepy](https://discord.gg/bJvqnhg);
+	* O jeito mais fácil de instalar o Tweepy é pelo comando Bash `pip install tweepy`.
+* **[PythonAnywhere](https://pythonanywhere.com/)
+	* "PythonAnywhere é um ambiente de desenvolvimento integrado (IDE) e serviço de hospedagem web baseado na linguagem de programação Python" ([Wikipédia](https://pt.wikipedia.org/wiki/PythonAnywhere));
+	* Nós utilizaremos o PythonAnywhere para hospedar o bot criado, então você deverá criar uma conta [neste site](https://www.pythonanywhere.com/pricing/);
+	* Para a grande parte das aplicações, o pacote "*Beginner: Free!*" é suficiente para atender a demanda, mas, se necessário, o PythonAnywhere possui planos pagos com mais capacidade de processamento.
 
 ### Ganhando acesso a API
 Para utilizar o bot, será necessário códigos de acesso a API e ao usuário do mesmo. Então, após receber a *developer account* do Twiter, você deverá seguir estes passos:
@@ -29,7 +35,7 @@ Para utilizar o bot, será necessário códigos de acesso a API e ao usuário do
 
 Você pode ver o passo-a-passo [neste vídeo](https://www.youtube.com/watch?v=LpLYQz_3hA0).
 
-Após ter o código de acesso a aplicação, você deverá coletar o código para acesso ao usuário, você pode conseguir os mesmos com o seguinte trecho de código Python:
+Após ter o código de acesso a aplicação, você deverá coletar os códigos para acesso ao usuário, caso sua aplicação vá utilizar um para realizar escrita, você pode conseguir esses códigos com o seguinte trecho de código Python:
 ```python
 import tweepy
 consumer_key = input("Your Consumer Key: ")
@@ -72,7 +78,7 @@ Para isso, você vai acessar a sua conta no [PythonAnywhere](https://www.pythona
 * **Trabalhe com o ID dos usuários**
 	* Ao contrário de seus ID's, os usuários podem mudar seus nomes de usuários, ou seja, se você basear seu código no nome de um usuário, terá que realizar uma manutenção sempre que o mesmo editar seu cadastro;
 	* Você pode facilmente verificar o ID de um usuário pelo site [TweeterID.](https://tweeterid.com/)
-* **Procure exemplos**<br />
-Procure outras aplicações que utilizem os mesmos recursos que você e/ou tenham objetivos parecidos, um bom exemplo é sempre uma ótima fonte de informações.
-* **Entre no servidor do Discord do Tweepy**<br />
-É provável que alguma já tenha passado pelo mesmo problema que você ou, pelo menos, tenha alguma ideia que possa facilitar sua vida, então é bom ter um lugar onde possa pedir ajuda.
+* **Procure exemplos**
+	* Procure outras aplicações que utilizem os mesmos recursos que você e/ou tenham objetivos parecidos, um bom exemplo é sempre uma ótima fonte de informações.
+* **Entre no servidor do Discord do Tweepy**
+	* É provável que alguma já tenha passado pelo mesmo problema que você ou, pelo menos, tenha alguma ideia que possa facilitar sua vida, então é bom ter um lugar onde possa pedir ajuda.
